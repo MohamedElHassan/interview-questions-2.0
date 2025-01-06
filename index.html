@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="styles/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" /> -->
+
+    <title>Interview Questions</title>
+  </head>
+  <body>
+    <div class="interview-questions-loader">
+      <i class="fa-solid fa-spinner"></i>
+    </div>
+    <h2 class="interview-questions">Step 2: Interview Questions</h2>
+    <h3 class="interview-questions">
+      note: Please Make sure to give access to the microphone
+    </h3>
+    <div id="analysisResult"></div>
+
+    <div class="interview-questions-page-container">
+      <div class="interview-questions-container">
+        <section class="questions">
+          <div class="questions-question">
+            <h3>Question 1</h3>
+            <p>Talk about your self in English</p>
+          </div>
+        </section>
+        <section class="answers">
+          <div class="answers-recording-timer">
+            <i class="fa-solid fa-stopwatch"></i> 60 seconds
+          </div>
+          <div class="answers-recording-indicator"></div>
+          <div class="answers-recording-button">
+            Start Recording <i class="fa-solid fa-circle"></i>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js" type="module">
+      // const openai = new OpenAI();
+
+      // async function main() {
+      //     const stream = await openai.chat.completions.create({
+      //         model: "gpt-4o-mini",
+      //         messages: [{ role: "user", content: "Say this is a test" }],
+      //         stream: true,
+      //     });
+      //     for await (const chunk of stream) {
+      //         process.stdout.write(chunk.choices[0]?.delta?.content || "");
+      //     }
+      // }
+
+      // main();
+    </script>
+  </body>
+</html>
